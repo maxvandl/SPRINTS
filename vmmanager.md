@@ -52,5 +52,10 @@ Ubuntu 18.04
 
 **Вес CPU**  
 
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
+// resets
+s { font-style: normal; } //strike-through
+em { font-style: normal; font-weight: bold; } //italic emphasis
 
+// colors
+s { color: green }
+em { color: blue }
