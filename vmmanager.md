@@ -1,5 +1,5 @@
-Адрес панели
-https://lee15636.justinstalledpanel.com:1500/vmmgr
+Адрес панели  
+https://lee15636.justinstalledpanel.com:1500/vmmgr  
 
-**Создание VM**
-Управление -> Виртуальные машины
+**Создание VM**  
+Управление -> Виртуальные машины  
