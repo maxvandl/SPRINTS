@@ -6,9 +6,9 @@ Worker Node - 3 шт. (RAM - 64Gb, HDD - 400Gb)
 
 
 Краткая схема и описание архитектуры развертывания  
-![Diagram](https://hsto.org/webt/qo/mi/un/qomiunfreqwd2oyor5h-hjrjzm8.png)
-|Имена хостов   |	IP адрес|Описание |	Компоненты|  
-|:------------- |:---------:| :------:|:---------:|  
+![Diagram](https://hsto.org/webt/qo/mi/un/qomiunfreqwd2oyor5h-hjrjzm8.png)  
+|Имена хостов   |	IP адрес|Описание |	Компоненты|
+|:------------- |:---------:| :------:|:---------:|
 
 
 
