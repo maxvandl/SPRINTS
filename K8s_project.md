@@ -9,8 +9,8 @@ Etcd - 3 шт. (RAM - 4GB, HDD - 100 GB)
 |Имена хостов   |	IP адрес|Описание |	Компоненты|
 | ------------- |:---------:| :------:|:---------:|
 |hb-master01 ~ 03| 	172.26.133.21 ~ 25| 	master nodes * 5| 	keepalived, nginx, etcd, kubelet, kube-apiserver, kube-scheduler, kube-proxy, kube-dashboard, heapster|
-N\A 	172.26.133.20 	keepalived virtual IP 	N\A
-hb-node01 ~ 03 	172.26.133.26 ~ 28 	Рабочие ноды * 3 	kubelet, kube-proxy
+N\A |	172.26.133.20 |	keepalived virtual IP |	N\A
+hb-node01 ~ 03 |	172.26.133.26 ~ 28 	|Рабочие ноды * 3 	|kubelet, kube-proxy|
 
 
 
