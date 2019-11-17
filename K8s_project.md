@@ -1,11 +1,12 @@
 Требование к инфраструктуре K8s тестовый  
 0. Операционная система RHEL.  
-1. Колличество ВМ 7  шт.  
-Master Node - 5 шт. (RAM - 4GB, HDD - 100 GB)  
-Worker Node - 3 шт. (RAM - 64Gb, HDD - 400Gb)  
+1. Колличество ВМ 8шт.  
+Master Node - 5шт. (RAM - 4GB, HDD - 100 GB)  
+Worker Node - 3шт. (RAM - 64Gb, HDD - 400Gb)  
 
 
-<b>Краткая схема и описание архитектуры развертывания  
+<b>Краткая схема и описание архитектуры развертывания<b>  
+
 ![Diagram](https://hsto.org/webt/qo/mi/un/qomiunfreqwd2oyor5h-hjrjzm8.png)  
 
 
