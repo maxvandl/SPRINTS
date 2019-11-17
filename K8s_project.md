@@ -9,10 +9,9 @@ Worker Node - 3 шт. (RAM - 64Gb, HDD - 400Gb)
 ![Diagram](https://hsto.org/webt/qo/mi/un/qomiunfreqwd2oyor5h-hjrjzm8.png)  
 
 
-
-
-| Имена хостов         | IP адрес|Описание                   | Компоненты                                   | 
-| ------------- |:-------------:  |:---:           | -----:                                |
+| Имена хостов  | IP адрес|Описание  | Компоненты| 
+| ------------- |:-------:|:-------: | -----:    |
+|hb-master01 ~ 03| 	172.26.133.21 ~ 25| master nodes * 5|keepalived, nginx, etcd, kubelet, kube-apiserver, kube-scheduler, kube-proxy, kube-dashboard|
 
 
 2. Необходимые инфраструктурные изменения
