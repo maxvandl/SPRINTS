@@ -33,6 +33,4 @@ hb-node01 ~ 03 |	172.26.133.26 ~ 28 	|Рабочие ноды * 3 	|kubelet, kub
 Примечание: Данные требования только для тестовой инсталяции, которая включает 19 контейнеров и необходимое для оценки колличество сред. Необходимо принять решение вносятся ли в K8s базы данных и стека ELK. Колличество артефактов описывается методом GFS. 
 Для ELK Необходимо учесть текущие ошибки, как то грамотно рассчитать необходимый размер хранилища и политику ротации логов.
 
-![Diagram](https://rtfm.co.ua/wp-content/uploads/2019/07/maxresdefault.jpg)
-![Diagram](https://rtfm.co.ua/wp-content/uploads/2019/07/API-server-overview.png)
-
+![Diagram](https://hsto.org/webt/qo/mi/un/qomiunfreqwd2oyor5h-hjrjzm8.png)
