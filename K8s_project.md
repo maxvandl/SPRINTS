@@ -1,9 +1,10 @@
 Требование к инфраструктуре K8s тестовый  
 0. Операционная система RHEL.  
-1. Колличество ВМ 5  шт.  
+1. Колличество ВМ 7  шт.  
 Master Node - 1 шт. (RAM - 4GB, HDD - 100 GB)  
 Worker Node - 3 шт. (RAM - 64Gb, HDD - 400Gb)  
-Etcd - 1 шт. (RAM - 4GB, HDD - 100 GB)  
+Etcd - 3 шт. (RAM - 4GB, HDD - 100 GB)  
+![Diagram](https://lh4.googleusercontent.com/KSQX7vJ54g_daxmaeljRa_A-2if9JJc5Yg9U1qkCr07dXPlTvVFQTxbcOX43T_PoJKrUYXymhGIb1tjG6QY44UiM_H6197piva34dxJ6qmmcG2fReCOAJngHkbHec7aZT1UTAl0n)
 2. Необходимые инфраструктурные изменения
 - DNS зона.
 - Диапазон  адресов.
@@ -25,4 +26,6 @@ Etcd - 1 шт. (RAM - 4GB, HDD - 100 GB)
 
 ![Diagram](https://rtfm.co.ua/wp-content/uploads/2019/07/maxresdefault.jpg)
 ![Diagram](https://rtfm.co.ua/wp-content/uploads/2019/07/API-server-overview.png)
+
+
 
