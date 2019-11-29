@@ -8,7 +8,7 @@ FROM ubuntu:18.04 AS Install
 # It should be the same key as https://www.postgresql.org/media/keys/ACCC4CF8.asc
 ENV TZ=Europe/Moscow
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-RUN apt-get update && apt-get install -y software-properties-common gcc gnupg wget
+RUN apt-get update && apt-get install -y software-properties-common gcc gnupg wget unzip
 RUN apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys B97B0AFCAA1A47F044F244A07FCC7D46ACCC4CF8
 RUN wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add - && RELEASE=$(lsb_release -cs) && echo "deb http://apt.postgresql.org/pub/repos/apt/ ${RELEASE}"-pgdg main | tee  /etc/apt/sources.list.d/pgdg.list
 
@@ -25,7 +25,7 @@ RUN apt-get update && apt-get install -y postgresql-11 postgresql-client-11 post
 
 RUN git clone https://github.com/HypoPG/hypopg.git
 WORKDIR hypopg
-RUN make install
+RUN make deb
 CMD rm *.*
 
 FROM postgress:1 AS Target
